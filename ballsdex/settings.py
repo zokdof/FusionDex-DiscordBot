@@ -61,7 +61,7 @@ class Settings:
     bot_token: str = "MTI0MTY2OTgwNTQ3MjM1NDM5NA.GHVDQg.2aiA-DZ6bo9lYSF3VTA7-w9Jfq5oN62q4MAQts"
     gateway_url: str | None = None
     shard_count: int | None = None
-    prefix: str = "b."
+    prefix: str = "f."
 
     collectible_name: str = "fusionball"
     plural_collectible_name: str = "fusionballs"
