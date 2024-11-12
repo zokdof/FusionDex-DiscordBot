@@ -58,24 +58,24 @@ class Settings:
         List of roles that have partial access to the /admin command (only blacklist and guilds)
     """
 
-    bot_token: str = ""
+    bot_token: str = "MTI0MTY2OTgwNTQ3MjM1NDM5NA.GHVDQg.2aiA-DZ6bo9lYSF3VTA7-w9Jfq5oN62q4MAQts"
     gateway_url: str | None = None
     shard_count: int | None = None
     prefix: str = "b."
 
-    collectible_name: str = "countryball"
-    plural_collectible_name: str = "countryballs"
-    bot_name: str = "BallsDex"
-    players_group_cog_name: str = "balls"
+    collectible_name: str = "fusionball"
+    plural_collectible_name: str = "fusionballs"
+    bot_name: str = "FusionDex"
+    players_group_cog_name: str = "fusion"
 
     max_favorites: int = 50
-    max_attack_bonus: int = 20
-    max_health_bonus: int = 20
+    max_attack_bonus: int = 50
+    max_health_bonus: int = 50
 
     # /about
     about_description: str = ""
     github_link: str = ""
-    discord_invite: str = ""
+    discord_invite: str = "1292433166564589629"
     terms_of_service: str = ""
     privacy_policy: str = ""
 
